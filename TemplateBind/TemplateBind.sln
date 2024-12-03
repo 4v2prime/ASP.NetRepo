@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateBind", "TemplateBind\TemplateBind.csproj", "{396C3B60-F76A-4ECA-AC68-B221213AA7CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{396C3B60-F76A-4ECA-AC68-B221213AA7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396C3B60-F76A-4ECA-AC68-B221213AA7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396C3B60-F76A-4ECA-AC68-B221213AA7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396C3B60-F76A-4ECA-AC68-B221213AA7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {737A6814-AC68-450E-8805-CCCE28316382}
+	EndGlobalSection
+EndGlobal
