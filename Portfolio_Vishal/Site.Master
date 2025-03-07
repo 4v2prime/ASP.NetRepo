@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Portfolio_Vishal.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Portfolio : Vishal Pardeshi</title>
+    <!-- font icons -->
+    <link href="Content/vendors/themify-icons/css/themify-icons.css" rel="stylesheet" />
+    <link href="Content/css/johndoe.css" rel="stylesheet">
+    <link href="Content/css/animate.css" rel="stylesheet">
+    <link rel="icon" href="vicon.png">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://www.linkedin.com/in/t-vishalpardeshi/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://x.com/VishalP71504"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" target="_blank" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                <li hidden class="social-item"><a class="social-link text-light" target="_blank" href="https://www.instagram.com/mr_vishal_pardeshi/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" target="_blank" href="https://github.com/4v2prime"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="header-content">
+                <h4 class="header-subtitle">Hello, I am</h4>
+                <h1 class="header-title">Vishal Pardeshi</h1>
+                <h6 class="header-mono">Full Stack Dot Net Developer</h6>
+                <%--<button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>--%>
+                <%--<button class="btn btn-primary btn-rounded"></button>--%>
+                <a class="btn btn-primary btn-rounded"  target="_blank"  href="Content/resume/Resume_Vishal_Pardeshi.pdf"><i class="ti-printer pr-2"></i>Print Resume</a>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="Content/imgs/vishalp.jpg" alt="" class="brand-img" />
+
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Vishal Pardeshi</h5>
+                        <div class="brand-subtitle">Software Developer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                Created By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">Vishal Pardeshi</span></a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="Content/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="Content/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="Content/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="Content/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="Content/js/johndoe.js"></script>
+</body>
+</html>
